@@ -39,14 +39,18 @@
               <p class="post-date">28 June 2020</p>
             </div>
           </div>
-          <button class="share-button">
+          <button
+            class="share-button"
+            onclick="showShareOptions()"
+            id="share-button"
+          >
             <img src="./images/icon-share.svg" alt="share-icon" />
           </button>
         </div>
-
-        <!-- hidden share options bar -->
       </div>
-      <div class="share-options">
+
+      <!-- hidden share options bar -->
+      <dialog class="share-options" id="share-options">
         <div class="social-media-options">
           <span>Share</span>
           <img src="./images/icon-facebook.svg" alt="facebook-icon" />
@@ -57,8 +61,10 @@
           src="./images/icon-share.svg"
           alt="share-icon"
           class="share-icon"
+          id="share-icon"
         />
-      </div>
+        <div class="triangle"></div>
+      </dialog>
     </div>
   </body>
   <script src="furniture-article.js"></script>

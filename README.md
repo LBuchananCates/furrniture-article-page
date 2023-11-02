@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/layout-skills-with-css-and-dynamic-button-SHVrpnbyWk)
 - Live Site URL: [Add live site URL here](https://whimsical-medovik-9c7c0a.netlify.app)
 
 ## My process
@@ -103,5 +103,5 @@ Still need to work on javascript skills, learned a lot more about CSS tricks (th
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [view it here!](https://whimsical-medovik-9c7c0a.netlify.app)
 - Frontend Mentor - [@LBuchananCates](https://www.frontendmentor.io/profile/lbuchanancates)

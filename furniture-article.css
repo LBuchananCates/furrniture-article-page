@@ -26,24 +26,25 @@ body {
 
 .furniture-section-heading {
   color: hsl(217, 19%, 35%);
-  padding: 40px 35px 20px 35px;
+  padding: 36px 32px 12px 32px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
   margin: 0;
-  font-size: 1.5ch;
 }
 
 .furniture-section-summary {
   color: hsl(217, 19%, 35%);
-  padding: 0 35px;
+  padding: 0 32px;
   line-height: 2.5ch;
   margin: 0;
-  font-size: 0.75rem;
+  font-size: 13px;
 }
 
 .furniture-section-author {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 35px;
+  padding: 32px;
   align-items: center;
   width: 100%;
 }
@@ -51,6 +52,7 @@ body {
 .author-info-container {
   display: flex;
   flex-direction: row;
+  padding: 4px 0 0;
 }
 
 .author-avatar {
@@ -80,7 +82,7 @@ body {
   display: none;
   flex-direction: row;
   background-color: hsl(217, 19%, 35%);
-  padding: 10px;
+  padding: 22px 32px;
   justify-content: space-between;
   color: hsl(212, 23%, 69%);
   text-transform: uppercase;
@@ -88,7 +90,8 @@ body {
   width: 100%;
   position: absolute;
   bottom: 0px;
-  height: 6rem;
+  height: 4.75rem;
+  border: none;
 }
 
 .social-media-options {
@@ -104,14 +107,15 @@ body {
   border-radius: 50%;
   border: none;
   width: 2.375rem;
+  height: 2.375rem;
   padding: 0.5rem;
   text-align: center;
 }
 
 .share-icon {
-  padding: 0.5rem;
-  background-color: #b5b5b5;
+  /* padding: 0.5rem; */
   border-radius: 50%;
+  text-align: center;
 }
 
 .triangle {
@@ -141,7 +145,7 @@ body {
   }
 
   .furniture-section-text {
-    padding: 0px 30px 0px;
+    padding: 32px 40px;
     font-size: 2rem;
   }
 
@@ -188,6 +192,7 @@ body {
     top: 8rem;
     right: -80rem;
     border-radius: 15px;
+    border: none;
     padding: 2rem;
     justify-content: space-evenly;
     width: 20rem;
@@ -195,7 +200,7 @@ body {
     -webkit-tap-highlight-color: transparent;
   }
 
-  .share-options * {
+  .social-media-options img {
     cursor: pointer;
   }
 

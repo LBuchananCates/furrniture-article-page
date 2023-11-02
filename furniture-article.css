@@ -77,7 +77,7 @@ body {
 }
 
 .share-options {
-  display: flex;
+  display: none;
   flex-direction: row;
   background-color: hsl(217, 19%, 35%);
   padding: 10px;
@@ -87,6 +87,8 @@ body {
   border-radius: 0 0 15px 15px;
   width: 100%;
   position: absolute;
+  bottom: 0px;
+  height: 6rem;
 }
 
 .social-media-options {
@@ -109,14 +111,24 @@ body {
 .share-icon {
   padding: 0.5rem;
   background-color: #b5b5b5;
-  /* color: white; */
   border-radius: 50%;
 }
 
+.triangle {
+  display: none;
+}
+
 @media screen and (min-width: 1440px) {
+  body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+
   .furniture-container {
     flex-direction: row;
-    width: 85rem;
+    width: 95rem;
+    position: relative;
     /* margin: 0 auto; */
   }
 
@@ -129,15 +141,73 @@ body {
   }
 
   .furniture-section-text {
-    padding: 30px;
+    padding: 0px 30px 0px;
     font-size: 2rem;
   }
 
+  .furniture-section-heading {
+    padding: 35px;
+    font-size: 2ch;
+  }
+
   .furniture-section-summary {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    padding: 0 35px;
+  }
+
+  .furniture-section-author {
+    font-size: 2rem;
+    width: 95%;
+  }
+
+  .author-post-date p {
+    font-size: 1.5rem;
+  }
+
+  .author-post-date {
+    font-size: 1.5rem;
+  }
+
+  .share-icon {
+    display: none;
+  }
+
+  .share-button {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    right: 90px;
+    cursor: pointer;
+    /* to prevent blue highlight when clicked */
+    -webkit-tap-highlight-color: transparent;
   }
 
   .share-options {
     display: none;
+    position: absolute;
+    top: 8rem;
+    right: -80rem;
+    border-radius: 15px;
+    padding: 2rem;
+    justify-content: space-evenly;
+    width: 20rem;
+    /* to prevent blue highlight when clicked */
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .share-options * {
+    cursor: pointer;
+  }
+
+  .triangle {
+    position: absolute;
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 30px 30px 0 30px;
+    border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+    transform: rotate(0deg);
+    bottom: -25px;
   }
 }

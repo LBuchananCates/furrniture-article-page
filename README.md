@@ -1,8 +1,10 @@
 # Frontend Mentor - Article preview component solution
 
-[Click here to see my website live!](insert)
+[Click here to see my website live!](https://whimsical-medovik-9c7c0a.netlify.app)
+
 
 <img width="811" alt="desktop active state" src="https://github.com/LBuchananCates/furrniture-article-page/assets/100169368/09a0ecc8-780d-4f18-b9c0-8dabfe4b0be1">
+<img width="351" alt="mobile state" src="https://github.com/LBuchananCates/furrniture-article-page/assets/100169368/607f7ecc-e9bd-4c22-a318-b00409e7d2bc">
 
 ## Overview
 
@@ -15,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/layout-skills-with-css-and-dynamic-button-SHVrpnbyWk)
+- Live Site URL: [Add live site URL here](https://whimsical-medovik-9c7c0a.netlify.app)
 
 ## My process
 
@@ -101,5 +103,5 @@ Still need to work on javascript skills, learned a lot more about CSS tricks (th
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [view it here!](https://whimsical-medovik-9c7c0a.netlify.app)
 - Frontend Mentor - [@LBuchananCates](https://www.frontendmentor.io/profile/lbuchanancates)

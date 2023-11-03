@@ -3,7 +3,10 @@
 }
 
 body {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
   font-family: "Manrope", sans-serif;
   background-color: hsl(210, 46%, 95%);
 }

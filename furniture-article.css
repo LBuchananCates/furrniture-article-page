@@ -19,6 +19,7 @@ body {
   background-color: white;
   border-radius: 15px;
   position: relative;
+  max-width: 17rem;
 }
 
 .furniture-image {
@@ -49,7 +50,6 @@ body {
   justify-content: space-between;
   padding: 32px;
   align-items: center;
-  width: 100%;
 }
 
 .author-info-container {
@@ -135,17 +135,17 @@ body {
   }
 
   .furniture-container {
-    flex-direction: row;
-    width: 95rem;
     position: relative;
+    max-width: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .furniture-image {
     object-fit: cover;
     border-radius: 15px 0 0 15px;
     display: flex;
-    height: 35rem;
-    width: 50%;
+    min-height: 100%;
   }
 
   .furniture-section-text {
@@ -165,7 +165,6 @@ body {
 
   .furniture-section-author {
     font-size: 2rem;
-    width: 95%;
   }
 
   .author-post-date p {
@@ -194,7 +193,7 @@ body {
     display: none;
     position: absolute;
     top: 8rem;
-    right: -80rem;
+    right: -69.5rem;
     border-radius: 15px;
     border: none;
     padding: 2rem;

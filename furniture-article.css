@@ -19,7 +19,7 @@ body {
   background-color: white;
   border-radius: 15px;
   position: relative;
-  max-width: 17rem;
+  max-width: 20rem;
 }
 
 .furniture-image {
@@ -84,27 +84,16 @@ body {
 }
 
 .share-options {
-  display: none;
-  flex-direction: row;
   background-color: hsl(217, 19%, 35%);
   padding: 22px 32px;
   justify-content: space-between;
   color: hsl(212, 23%, 69%);
   text-transform: uppercase;
   border-radius: 0 0 15px 15px;
-  width: 100%;
   position: absolute;
   bottom: 0px;
   height: 6rem;
   border: none;
-}
-
-.social-media-options {
-  display: flex;
-  width: 75%;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 15rem;
 }
 
 .share-button-unclicked {
@@ -112,15 +101,6 @@ body {
   height: 2.75rem;
   padding: 0.5rem;
   text-align: center;
-}
-
-.share-icon {
-  padding: 0.5rem;
-  border-radius: 50%;
-  text-align: center;
-  height: 2rem;
-  width: 2rem;
-  align-self: center;
 }
 
 .triangle {
@@ -167,6 +147,15 @@ body {
     font-size: 2rem;
   }
 
+  .share-span {
+    position: relative;
+  }
+
+  .author-avatar,
+  .author-name {
+    cursor: pointer;
+  }
+
   .author-post-date p {
     font-size: 1.5rem;
   }
@@ -175,36 +164,40 @@ body {
     font-size: 1.5rem;
   }
 
-  .share-icon {
-    display: none;
+  .social-media-links {
+    display: flex;
+    gap: 1rem;
   }
 
   .share-button-unclicked {
     width: 4rem;
     height: 4rem;
-    position: absolute;
-    right: 90px;
     cursor: pointer;
     /* to prevent blue highlight when clicked */
     -webkit-tap-highlight-color: transparent;
   }
 
   .share-options {
-    display: none;
     position: absolute;
-    top: 8rem;
-    right: -69.5rem;
     border-radius: 15px;
-    border: none;
-    padding: 2rem;
-    justify-content: space-evenly;
-    width: 20rem;
+    top: -15rem;
+    left: -6rem;
+    padding: 18px 35px;
     /* to prevent blue highlight when clicked */
     -webkit-tap-highlight-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 15rem;
+    gap: 1.25rem;
   }
 
-  .social-media-options img {
-    cursor: pointer;
+  .share-options p {
+    color: #9daec2;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 5px;
   }
 
   .triangle {
@@ -216,6 +209,7 @@ body {
     border-width: 30px 30px 0 30px;
     border-color: hsl(217, 19%, 35%) transparent transparent transparent;
     transform: rotate(0deg);
-    bottom: -25px;
+    bottom: -1.5rem;
+    left: 6rem;
   }
 }

@@ -11,28 +11,45 @@
 <body>
   <main>
     <section class="image__section">
-      <img src="./images/drawers.jpg" alt="drawers" />
-      <!-- <img src="./images/drawers-img.png" alt="" /> -->
+      <!-- <img src="./images/drawers.jpg" alt="drawers" /> -->
+      <img
+        src="./images/drawers-img.png"
+        alt="drawers"
+        class="mobile-drawers-img"
+      />
+      <img
+        src="./images/desktop-image.png"
+        alt="drawers"
+        class="desktop-drawers-img"
+      />
     </section>
-    <section class="article__section">
-      <h1 class="article__header">
-        Shift the overall look and feel by adding these wonderful touches to
-        furniture in your home
-      </h1>
-      <p class="article__content">
-        Ever been in a room and felt like something was missing? Perhaps it felt
-        slightly bare and uninviting. I’ve got some simple tips to help you make
-        any room feel complete.
-      </p>
-    </section>
-    <section class="author__section">
-      <img src="./images/michelle-avatar.svg" alt="michelle-avatar" />
-      <div class="author__details">
-        <p class="author__details-name">Michelle Appleton</p>
-        <p class="author__details-postdate">28 June 2020</p>
-      </div>
-      <img src="./images/light-oval.png" alt="share-arrow" />
-    </section>
+    <div class="article__content-desktop">
+      <section class="article__section">
+        <h1 class="article__header">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p class="article__content">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+      </section>
+      <section class="author__section">
+        <div class="author__items">
+          <img src="./images/michelle-avatar.svg" alt="michelle-avatar" />
+          <div class="author__details">
+            <p class="author__details-name">Michelle Appleton</p>
+            <p class="author__details-postdate">28 June 2020</p>
+          </div>
+        </div>
+        <img
+          src="./images/light-oval.png"
+          alt="share-arrow"
+          class="share-arrow"
+        />
+      </section>
+    </div>
   </main>
 </body>
 <script src="furniture-article.js"></script>

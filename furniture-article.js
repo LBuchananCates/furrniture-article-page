@@ -1,16 +1,9 @@
-function showShareOptions() {
-  var x = document.getElementById("share-options");
-  if (x.style.display === "flex") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "flex";
-  }
-}
-
-document.addEventListener("click", function clickOutside(event) {
-  let shareButton = document.getElementById("share-button");
-  const socialMediaOptions = document.getElementById("share-options");
-  if (!shareButton.contains(event.target)) {
-    socialMediaOptions.style.display = "none";
-  }
+const shareButton = document.getElementById("share-button");
+const shareOptionsDialog = document.getElementById("share-options");
+shareButton.addEventListener("click", function () {
+  shareOptionsDialog.show();
 });
+
+// when click outside dialog
+
+// then close shareoptionsdialog

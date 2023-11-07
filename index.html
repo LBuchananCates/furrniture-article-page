@@ -1,71 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="furniture-article.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- furniture article container -->
-    <div class="furniture-container">
-      <img
-        class="furniture-image"
-        src="./images/drawers.jpg"
-        alt="green set of drawers against white brick wall"
-      />
-      <div class="furniture-section-text">
-        <h2 class="furniture-section-heading">
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h2>
-        <p class="furniture-section-summary">
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
-        <div class="furniture-section-author">
-          <div class="author-info-container">
-            <img
-              class="author-avatar"
-              src="./images/avatar-michelle.jpg"
-              alt="michelle avatar"
-            />
-            <div class="author-post-date">
-              <p class="author-name">Michelle Appleston</p>
-              <p class="post-date">28 June 2020</p>
-            </div>
-          </div>
-          <img
-            class="share-button-unclicked"
-            onclick="showShareOptions()"
-            id="share-button"
-            src="./images/gray-share-arrow.png"
-            alt="share-icon"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="furniture-article.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <main>
+    <section class="image__section">
+      <img src="./images/drawers.jpg" alt="drawers" />
+      <!-- <img src="./images/drawers-img.png" alt="" /> -->
+    </section>
+    <section class="article__section">
+      <h1 class="article__header">
+        Shift the overall look and feel by adding these wonderful touches to
+        furniture in your home
+      </h1>
+      <p class="article__content">
+        Ever been in a room and felt like something was missing? Perhaps it felt
+        slightly bare and uninviting. I’ve got some simple tips to help you make
+        any room feel complete.
+      </p>
+    </section>
+    <section class="author__section">
+      <img src="./images/michelle-avatar.svg" alt="michelle-avatar" />
+      <div class="author__details">
+        <p class="author__details-name">Michelle Appleton</p>
+        <p class="author__details-postdate">28 June 2020</p>
       </div>
-
-      <!-- hidden share options bar -->
-      <dialog class="share-options" id="share-options">
-        <div class="social-media-options">
-          <span>Share</span>
-          <img src="./images/icon-facebook.svg" alt="facebook-icon" />
-          <img src="./images/icon-twitter.svg" alt="twitter-icon" />
-          <img src="./images/icon-pinterest.svg" alt="pinterest-icon" />
-        </div>
-        <img
-          src="./images/Oval 2.png"
-          alt="share-icon"
-          class="share-icon"
-          id="share-icon"
-        />
-        <div class="triangle"></div>
-      </dialog>
-    </div>
-  </body>
-  <script src="furniture-article.js"></script>
-</html>
+      <img src="./images/light-oval.png" alt="share-arrow" />
+    </section>
+  </main>
+</body>
+<script src="furniture-article.js"></script>

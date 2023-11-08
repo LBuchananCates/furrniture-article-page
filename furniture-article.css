@@ -190,6 +190,11 @@ main {
     left: 34.5rem;
   }
 
+  .share-arrow,
+  .social-media-icons img {
+    cursor: pointer;
+  }
+
   .triangle {
     position: absolute;
     display: flex;
